@@ -7,7 +7,6 @@ anvilCraft = "1.4.11+build.1195"
 curios = "9.0.15+1.21.1"
 modDevGradle = "2.0.78"
 lombok = "8.7.1"
-machete = "1.+"
 
 [libraries]
 registrate = { group = "com.tterrag.registrate", name = "Registrate", version.ref = "registrate" }
@@ -18,4 +17,3 @@ curios = { group = "top.theillusivec4.curios", name = "curios-neoforge", version
 [plugins]
 modDevGradle = { id = "net.neoforged.moddev", version.ref = "modDevGradle" }
 lombok = { id = "io.freefair.lombok", version.ref = "lombok" }
-machete = { id = "io.github.p03w.machete", version.ref = "machete" }
