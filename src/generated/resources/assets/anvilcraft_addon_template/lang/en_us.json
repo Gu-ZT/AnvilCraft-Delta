@@ -1,0 +1,14 @@
+{
+  "block.anvilcraft_addon_template.example_block": "Example Block",
+  "item.anvilcraft_addon_template.example_item": "Example Item",
+  "itemGroup.anvilcraft_addon_template.addon_items": "AnvilCraft: Addon Template",
+  "text.autoconfig.anvilcraft_addon_template.option.items": "Items",
+  "text.autoconfig.anvilcraft_addon_template.option.items.@Tooltip": "A list of items to log on common setup.",
+  "text.autoconfig.anvilcraft_addon_template.option.logDirtBlock": "Log Dirt Block",
+  "text.autoconfig.anvilcraft_addon_template.option.logDirtBlock.@Tooltip": "Whether to log the dirt block on common setup",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumber": "Magic Number",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumber.@Tooltip": "A magic number",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumberIntroduction": "Magic Number Introduction",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumberIntroduction.@Tooltip": "What you want the introduction message to be for the magic number",
+  "text.autoconfig.anvilcraft_addon_template.title": "Mod Config"
+}

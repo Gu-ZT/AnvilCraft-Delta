@@ -1,0 +1,14 @@
+{
+  "block.anvilcraft_addon_template.example_block": "ʞɔoןᗺ ǝןdɯɐxƎ",
+  "item.anvilcraft_addon_template.example_item": "ɯǝʇI ǝןdɯɐxƎ",
+  "itemGroup.anvilcraft_addon_template.addon_items": "ǝʇɐןdɯǝ⟘ uoppⱯ :ʇɟɐɹƆןıʌuⱯ",
+  "text.autoconfig.anvilcraft_addon_template.option.items": "sɯǝʇI",
+  "text.autoconfig.anvilcraft_addon_template.option.items.@Tooltip": "˙dnʇǝs uoɯɯoɔ uo boן oʇ sɯǝʇı ɟo ʇsıן Ɐ",
+  "text.autoconfig.anvilcraft_addon_template.option.logDirtBlock": "ʞɔoןᗺ ʇɹıᗡ boꞀ",
+  "text.autoconfig.anvilcraft_addon_template.option.logDirtBlock.@Tooltip": "dnʇǝs uoɯɯoɔ uo ʞɔoןq ʇɹıp ǝɥʇ boן oʇ ɹǝɥʇǝɥM",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumber": "ɹǝqɯnN ɔıbɐW",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumber.@Tooltip": "ɹǝqɯnu ɔıbɐɯ Ɐ",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumberIntroduction": "uoıʇɔnpoɹʇuI ɹǝqɯnN ɔıbɐW",
+  "text.autoconfig.anvilcraft_addon_template.option.magicNumberIntroduction.@Tooltip": "ɹǝqɯnu ɔıbɐɯ ǝɥʇ ɹoɟ ǝq oʇ ǝbɐssǝɯ uoıʇɔnpoɹʇuı ǝɥʇ ʇuɐʍ noʎ ʇɐɥM",
+  "text.autoconfig.anvilcraft_addon_template.title": "bıɟuoƆ poW"
+}
