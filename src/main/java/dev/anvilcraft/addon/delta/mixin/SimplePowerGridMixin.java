@@ -1,6 +1,7 @@
 package dev.anvilcraft.addon.delta.mixin;
 
 import dev.anvilcraft.addon.delta.util.ISimplePowerGridExtension;
+import dev.anvilcraft.addon.delta.util.PowerTransmitterLinesUtil;
 import dev.dubhe.anvilcraft.api.power.PowerComponentInfo;
 import dev.dubhe.anvilcraft.api.power.PowerComponentType;
 import dev.dubhe.anvilcraft.api.power.SimplePowerGrid;
@@ -79,7 +80,7 @@ public class SimplePowerGridMixin implements ISimplePowerGridExtension {
                 double v = vec3.distanceTo(vec4);
                 int i1 = map.getOrDefault(vec3, 0);
                 int i2 = map.getOrDefault(vec4, 0);
-                if (v > i1 + i2) continue;
+                if (!PowerTransmitterLinesUtil.isOverlap(vec3, i1, vec4, i2)) continue;
                 lines.add(new Line(
                     vec3,
                     vec4,

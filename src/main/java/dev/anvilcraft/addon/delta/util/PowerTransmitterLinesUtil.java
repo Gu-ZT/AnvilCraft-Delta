@@ -11,6 +11,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
@@ -46,5 +47,17 @@ public class PowerTransmitterLinesUtil {
         extension.delta$createPowerTransmitterLines();
         extension.delta$getPowerTransmitterLines();
         return extension.delta$getPowerTransmitterLines();
+    }
+
+    public static boolean isOverlap(@NotNull Vec3 a, int rangeA, @NotNull Vec3 b, int rangeB) {
+        AABB aAABB = new AABB(
+            a.x - rangeA - 0.5, a.y - rangeA - 0.5, a.z - rangeA - 0.5,
+            a.x + rangeA + 0.5, a.y + rangeA + 0.5, a.z + rangeA + 0.5
+        );
+        AABB bAABB = new AABB(
+            b.x - rangeB - 0.5, b.y - rangeB - 0.5, b.z - rangeB - 0.5,
+            b.x + rangeB + 0.5, b.y + rangeB + 0.5, b.z + rangeB + 0.5
+        );
+        return aAABB.intersects(bAABB);
     }
 }
