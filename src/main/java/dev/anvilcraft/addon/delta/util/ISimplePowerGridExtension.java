@@ -1,6 +1,5 @@
 package dev.anvilcraft.addon.delta.util;
 
-import dev.dubhe.anvilcraft.api.power.PowerComponentInfo;
 import dev.dubhe.anvilcraft.api.power.PowerComponentType;
 import dev.dubhe.anvilcraft.api.power.SimplePowerGrid;
 import dev.dubhe.anvilcraft.client.renderer.Line;
