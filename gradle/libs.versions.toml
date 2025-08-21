@@ -7,12 +7,14 @@ anvilCraft = "1.5.0+build.1273"
 curios = "9.0.15+1.21.1"
 modDevGradle = "2.0.78"
 lombok = "8.7.1"
+jts = "1.20.0"
 
 [libraries]
 registrate = { group = "com.tterrag.registrate", name = "Registrate", version.ref = "registrate" }
 clothConfig = { group = "me.shedaniel.cloth", name = "cloth-config-neoforge", version.ref = "clothConfig" }
 anvilCraft = { group = "dev.dubhe", name = "anvilcraft-neoforge-1.21.1", version.ref = "anvilCraft" }
 curios = { group = "top.theillusivec4.curios", name = "curios-neoforge", version.ref = "curios" }
+jts = { group = 'org.locationtech.jts', name = 'jts-core', version.ref = "jts" }
 
 [plugins]
 modDevGradle = { id = "net.neoforged.moddev", version.ref = "modDevGradle" }

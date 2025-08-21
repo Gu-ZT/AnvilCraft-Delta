@@ -2,6 +2,10 @@ dependencies {
     // Registrate
     api(libs.registrate)
 
+    // jts
+    implementation(libs.jts)
+    jarJar(libs.jts)
+
     // Cloth Config
     implementation(libs.clothConfig)
 
