@@ -4,6 +4,7 @@ dependencies {
 
     // jts
     implementation(libs.jts)
+    additionalRuntimeClasspath(libs.jts)
     jarJar(libs.jts)
 
     // Cloth Config
