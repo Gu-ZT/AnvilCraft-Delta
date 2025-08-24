@@ -11,7 +11,7 @@ dependencies {
     implementation(libs.clothConfig)
 
     // AnvilCraft
-    implementation(libs.anvilCraft) { transitive = false }
+    implementation(libs.anvilcraft) { transitive = false }
 
     // Curios API
     implementation(libs.curios)

@@ -13,7 +13,12 @@ else {
     if (System.getenv("PR_BUILD") != 'false') buildType = 'pr'
     buildNumber = System.getenv("GITHUB_RUN_NUMBER")
 }
-version = "${mod_version}" + (buildNumber != null ? "+${buildType}.${buildNumber}" : "")
+def envVersion = System.getenv("GITHUB_REF")
+if (envVersion != null && envVersion.startsWith("refs/tags/")) {
+    version = envVersion.substring(envVersion.lastIndexOf('/') + 1)
+} else {
+    version = "${mod_version}" + (buildNumber != null ? "+${buildType}.${buildNumber}" : "")
+}
 group = maven_group
 
 apply from: "$rootDir/gradle/scripts/moddevgradle.gradle"
