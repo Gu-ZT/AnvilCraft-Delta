@@ -7,8 +7,8 @@ dependencies {
     additionalRuntimeClasspath(libs.jts)
     jarJar(libs.jts)
 
-    // Cloth Config
-    implementation(libs.clothConfig)
+    // Anvil Lib
+    implementation(libs.anvillib)
 
     // AnvilCraft
     implementation(libs.anvilcraft) { transitive = false }
