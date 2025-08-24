@@ -19,7 +19,7 @@ jobs:
     env:
       CI_BUILD: true
       PR_BUILD: false
-      VERSION_TYPE: alpha
+      VERSION_TYPE: beta
     steps:
       - name: checkout
         uses: actions/checkout@v4
