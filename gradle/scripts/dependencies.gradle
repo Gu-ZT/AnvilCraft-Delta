@@ -9,9 +9,11 @@ dependencies {
 
     // Anvil Lib
     implementation(libs.anvillib)
+    interfaceInjectionData(libs.anvillib)
 
     // AnvilCraft
     implementation(libs.anvilcraft) { transitive = false }
+    interfaceInjectionData(libs.anvilcraft) { transitive = false }
 
     // Curios API
     implementation(libs.curios)
