@@ -5,7 +5,7 @@ on:
     branches:
       - releases/**
     paths:
-      - .github\workflows\ci.yml
+      - .github/workflows/ci.yml
       - src/**
       - common/**
       - fabric/**
